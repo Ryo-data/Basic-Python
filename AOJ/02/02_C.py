@@ -1,9 +1,4 @@
 a, b, c = map(int, input().split())
-
-if a > b:
-    a, b = b, a
-if a > c:
-    a, c = c, a
-if b > c:
-    b, c = c, b
-print(a, b, c)
+list = [a,b,c]
+list.sort()
+print(list[0],list[1],list[2])
