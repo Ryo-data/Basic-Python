@@ -1,4 +1,6 @@
-p = float(3.141592653589)
+import math
+
+p = math.pi
 r = float(input())
 s = (r**2) * p  # 面積
 l = r * 2 * p  # 円周
